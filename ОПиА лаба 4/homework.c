@@ -11,4 +11,5 @@ main()
 	int a, b, c;
 	scanf("%d%d%d", &a, &b, &c);
 	printf("тройка %d %d %d %s\n", a, b, c, ((troyka(a,b,c)) % 3 == 0) ? "является счастливой" : "не является счастливой");
+	sistem("pause");
 }
